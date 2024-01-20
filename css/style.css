@@ -1,0 +1,240 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+
+.container{
+    max-width: 1146px;
+    width: 100%;
+    margin: 0px auto;
+}
+.contact{
+    max-width: 385px;
+    width: 100%;
+    margin-top: 57px;
+}
+
+h2{
+    color: #5863E3;
+    font-family: 'Helvetica Neue', sans-serif;  
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+h3{
+    color: #000;
+    font-family: 'Helvetica Neue', sans-serif;  
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h4{
+    color: #4E4D54;
+    font-family: 'Helvetica Neue', sans-serif;  
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+h5{
+    color: #FFF;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 23px;
+}
+h6{
+    color: #FFF;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.text{
+    max-width: 756px;
+    width: 100%;
+    height: 298px;
+    overflow: hidden;
+}
+
+textarea{
+    width: 100%;
+    height: 100%;
+    padding: 23px;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    color: #99999A;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    resize: none;
+}
+
+form{
+    margin-top: 57px;
+    display: flex;
+    gap: 20px; 
+    
+}
+.input{
+    width: 370px;
+    height: 296px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fields{
+    width: 370px;
+    height: 59px;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    color: #99999A;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Send{
+    width: 370px;
+    height: 59px;
+    color: #FBFBFF;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #5968F4;
+    border: none;
+
+}
+.info{
+    margin-top: 51px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.info-box{
+    width: 226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.circle{
+    width: 68px;
+    height: 68px;
+    background-color: #5968F4;
+    border-radius: 50%;
+}
+.relative{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+a{
+    color: #99999A;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.mid-tag{
+    color: #99999A;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+p{
+    color: #99999A;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.photos{
+    max-width: 555px;
+    width: 100%;
+    margin-top: 78px;
+}
+.images{
+    margin-top: 58px;
+    display: flex;
+    justify-content: space-around;
+}
+.container-bot{
+    width: 100%;
+    background: #000;
+    padding-top: 63px;
+    padding-bottom: 100px;
+}
+.bot-info{
+    max-width: 1146px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hotels{
+    width: 289px;
+}
+.logo{
+    width: 140px;
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color: #5863E3;
+    font-family: 'Helvetica Neue', sans-serif;  
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+li{
+    margin-bottom: 9px;
+}
+.pseudo{
+    color: #FFF;
+    font-family: 'Helvetica Neue', sans-serif;  
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.map::before{
+    margin-right: 19px;
+    content: url(../images/Frame\ \(1\).png);
+}
+.tel::before{
+    margin-right: 12px;
+    content: url(../images/Phone\ 1.png);
+}
+.mail2::before{
+    margin-right: 12px;
+    content: url(../images/Frame\ 3.png);
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+}
+.p-margin{
+    margin-bottom: 19px;
+    display: flex;
+    align-items: center;
+}
