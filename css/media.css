@@ -14,7 +14,9 @@
 }
 @media(max-width: 770px){
     .info{
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
     }
     form{
         display: flex;
@@ -24,6 +26,16 @@
         width: 95%;
         flex-direction: column;
         justify-content: center;
+    }
+    .input{
+        width: 100%;
+
+    }
+    .fields{
+        width: 100%;
+    }
+    .Send{
+        width: 100%;
     }
 
 }

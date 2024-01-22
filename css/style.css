@@ -216,18 +216,25 @@ li{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    vertical-align: middle;
 }
 .map::before{
-    margin-right: 19px;
+    margin-left: 6px;
+    margin-right: 21px;
     content: url(../images/Frame\ \(1\).png);
+    vertical-align: middle;
+
 }
 .tel::before{
     margin-right: 12px;
     content: url(../images/Phone\ 1.png);
+    vertical-align: middle;
 }
 .mail2::before{
-    margin-right: 12px;
+    margin-left: 3px;
+    margin-right: 16px;
     content: url(../images/Frame\ 3.png);
+    vertical-align: middle;
 }
 
 .mail{
@@ -236,6 +243,5 @@ li{
 }
 .p-margin{
     margin-bottom: 19px;
-    display: flex;
-    align-items: center;
+    vertical-align: middle;
 }
